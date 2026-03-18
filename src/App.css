@@ -24,6 +24,7 @@
   h1 {
     text-align: center;
     color: #1ad126;
+    font-size: 3em;
   }
   form {
     display: flex;

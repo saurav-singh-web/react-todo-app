@@ -33,7 +33,7 @@
   input {
     flex: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 5px solid #c106b4;
     border-radius: 6px;
   }
   select {

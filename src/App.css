@@ -1,0 +1,97 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #3108a1;
+  }
+  .ListContainer {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #1ad126;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #c106b4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .headerContainer{
+    width: 100%;
+    height: 120px;
+    background: #c106b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1ad126;
+  }
+  h1 {
+    text-align: center;
+    color: #1ad126;
+  }
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  select {
+    padding: 8px;
+    border-radius: 6px;
+  }
+  button {
+    padding: 8px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border: 3px solid #c106b4;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 6px;
+  }
+  li span {
+    flex: 1;
+  }
+
+  li span.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  /* Buttons inside item */
+  li button {
+    margin-left: 5px;
+    background: #28a745;
+  }
+
+  li button:hover {
+    background: #1e7e34;
+  }
+
+  li button:last-child {
+    background: #dc3545;
+  }
+
+  li button:last-child:hover {
+    background: #a71d2a;
+  }
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
